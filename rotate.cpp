@@ -17,6 +17,7 @@ void rotate(int arr2[],int n){
 int main(){
 
     int arr2[5]={1,2,3,4,5};
+    int n=5;
     rotate(arr2,n);
     for(int i=0;i<n;i++){
         cout<<arr2[i]<<" ";
